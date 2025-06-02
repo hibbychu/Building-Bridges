@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" type = "image/jpg" href="../images/lfz.jpg">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Building Bridges</title>
+        <link rel="stylesheet" href="bridge.css">
+    </head>
+    <body>
+        <h1>
+            <image src="images/bridge.webp" width="190px"></image><span style="background-color:tomato">Building Bridges</span><image src="images/bridge.webp" width="190px"></image>
+        </h1>
+        <nav class="navbar">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="newgame.html">New Game</a></li>
+                <li><a href="chapter.html">Chapter Selection</a></li>
+                <li><a href="settings.html">Settings</a></li>
+                <li><a href="help.html">Help</a></li>  
+                <li><a href="../first.html">first</a></li>
+            </ul>
+        </nav>
+        
+        <p id="describehere"></p>
+        <button onclick="prevScene()">Previous Scene</button>
+        <button onclick="nextScene()">Next Scene</button>
+        <audio id="musicSound" src="audio/musicsound/guguandrean.mp3" autoplay></audio>
+        <audio id="ambienceSound" src="audio/ambiencesound/crowd.mp3" preload="auto"></audio>
+        <audio id="effectSound" src="audio/effectsound/close door.mp3" preload="auto"></audio>
+
+        <div id="audioControls" class="audioControls">
+            <button onclick="playAudio()">Play</button>
+            <button onclick="stopAudio()">Stop</button>
+        </div>
+        
+        <div class="screen" id="screen">
+            <img id="Title" class="Title" src="images/title3.png" alt="" height="400px">
+            <img id="Shahid" class="Shahid" src="images/char/Shahid.png" alt="" height="400px">
+            <img id="Maria" class="Maria" src="images/char/Yuno.png" alt="" height="400px">
+            <img id="Annie" class="Annie" src="images/char/Saber.png" alt="" height="400px">
+            <img id="Josh" class="Josh" src="images/char/Might Guy.png" alt="" height="400px">
+            <img id="John" class="John" src="images/char/Snape.png" alt="" height="400px">
+
+            <div class="message" id="message"></div>
+        </div>
+
+        <script src="bridge2.js"></script>
+        <script src="bridge.js"></script>
+    </body>
+</html>

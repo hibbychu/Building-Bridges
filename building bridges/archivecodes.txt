@@ -1,0 +1,316 @@
+    // ****** notes from zachary 6/8/24 ******
+    // let arr= [
+    //     {
+    //         left:
+    //         right:
+    //         center:
+    //     },null
+    // ]
+
+    // for (const i of arr) {
+    // hideAllPeople()
+    // leftPerson(arr[i].left)
+    // right
+    // center
+    // }    
+
+
+// switch (currentScene) {
+    //     case 1:
+    //         var screen = document.getElementById('screen');
+    //         screen.style.backgroundImage = "url('images/background/classroommorningbackground.jpg')";
+
+    //         titlescreen.style.display = "none";
+    //         playmusicSound("audio/musicsound/everytimeithink.mp3");
+    //         playAmbienceSound("audio/ambiencesound/crowd.mp3");
+    //         playEffectSound("audio/effectsound/schoolbell.mp3");
+    //         break;
+    //     case 2:
+    //         ShahidImagePath = "images/char/Shahidflustered.png";
+    //         document.getElementById("Shahid").src = ShahidImagePath;
+    //         break;
+    //     case 22:
+    //         playEffectSound("audio/effectsound/close door.mp3");
+    //         playAmbienceSound("audio/ambiencesound/library.mp3");
+    //         hideEveryone();
+    //         centerPerson(John);
+    //         break;
+    //     case 24:
+    //         hideEveryone();
+    //         leftPerson(Shahid);
+    //         rightPerson(Josh);
+    //         break;
+    //     case 28:
+    //         hideEveryone();
+    //         centerPerson(John);
+    //         break;
+    //     case 31:
+    //         hideEveryone();
+    //         centerPerson(Shahid);
+    //         break;
+    //     case 33:
+    //         hideEveryone();
+    //         centerPerson(John);
+    //         break;
+    //     case 38:
+    //         hideEveryone();
+    //         centerPerson(Shahid);
+    //         break;
+    //     case 40:
+    //         hideEveryone();
+    //         leftPerson(Maria);
+    //         rightPerson(Annie);
+    //         break;
+    //     case 41:
+    //         hideEveryone();
+    //         leftPerson(Shahid);
+    //         rightPerson(Josh);
+    //         break;
+    //     case 43:
+    //         hideEveryone();
+    //         centerPerson(Shahid);
+    //         break;
+    //     case 45:
+    //         hideEveryone();
+    //         leftPerson(Shahid);
+    //         rightPerson(Josh);
+    
+    //         var screen = document.getElementById('screen');
+    //         screen.style.backgroundImage = "url('images/background/maleroombackground.png')";
+    //         playmusicSound("audio/musicsound/DOG DAY.mp3");
+    //         playAmbienceSound("audio/ambiencesound/room.mp3");
+    //         break;
+    //     case 60:
+    //         hideEveryone();
+    //         centerPerson(Shahid);
+    //         break;
+    //     case 62:
+    //         hideEveryone();
+    //         centerPerson(Shahid);
+    
+    //         var screen = document.getElementById('screen');
+    //         screen.style.backgroundImage = "url('images/background/classroommorningbackground.jpg')";
+    //         playmusicSound("audio/musicsound/everytimeithink.mp3")
+    //         playAmbienceSound("audio/ambiencesound/crowd.mp3");
+    //         break;
+    //     case 64:
+    //         hideEveryone();
+    //         leftPerson(Josh);
+    //         centerPerson(Maria);
+    //         rightPerson(Annie);
+    //         break;
+    //     case 68:
+    //         hideEveryone();
+    //         centerPerson(Shahid);
+    //         break;
+    //     case 72:
+    //         hideEveryone();
+    //         leftPerson(Maria);
+    //         rightPerson(Annie);
+    //         break;
+    //     case 74:
+    //         hideEveryone();
+    //         centerPerson(Shahid);
+    //         break;
+    //     case 75:
+    //         hideEveryone();
+    //         leftPerson(Shahid);
+    //         rightPerson(Josh);
+    //         break;
+    //     case 76:
+    //         hideEveryone();
+    //         centerPerson(Shahid);
+    //         break;
+    //     case 78:
+    //         hideEveryone();
+    //         centerPerson(Annie);
+    //         break;
+    //     case 80:
+    //         hideEveryone();
+    //         centerPerson(Shahid);
+    //         break;
+    //     case 82:
+    //         hideEveryone();
+    //         leftPerson(Shahid);
+    //         rightPerson(Annie);
+    //         break;
+    //     case 83:
+    //         hideEveryone();
+    //         centerPerson(Maria);
+    //         break;
+    //     case 85: 
+    //         hideEveryone();
+    //         leftPerson(Josh);
+    //         rightPerson(Shahid);
+    //         break;
+    //     case 88:
+    //         hideEveryone();
+    //         leftPerson(Shahid);
+    //         rightPerson(Maria);
+
+    //         var screen = document.getElementById('screen');
+    //         screen.style.backgroundImage = "url('images/background/shoppingstreetbackground.jpg')";
+    //         playmusicSound("audio/musicsound/gawa ni irukara.mp3");
+    //         break;
+    //     case 120:
+    //         var screen = document.getElementById('screen');
+    //         screen.style.backgroundImage = "url('images/background/fastfoodbackground.png')";
+    //         break;
+    //     case 130:
+    //         hideEveryone();
+    //         centerPerson(Shahid);
+    //         var screen = document.getElementById('screen');
+    //         screen.style.backgroundImage = "url('images/background/maleroom.jpg')";
+    //         playmusicSound("audio/musicsound/Hopping Steps.mp3");
+    //         break;
+    //     case 136:
+    //         var screen = document.getElementById('screen');
+    //         screen.style.backgroundImage = "url('images/background/classroommorningbackground.jpg')";
+    //         playmusicSound("audio/musicsound/everytimeithink.mp3");
+    //         playAmbienceSound("audio/ambiencesound/crowd.mp3");
+    //         playEffectSound("audio/effectsound/schoolbell.mp3");
+    //         break;
+    //     case 139:
+    //         hideEveryone();
+    //         leftPerson(Shahid);
+    //         rightPerson(Maria);
+    //         break;
+    //     case 142:
+    //         hideEveryone();
+    //         centerPerson(Josh);
+    //         break;
+    //     case 143:
+    //         hideEveryone();
+    //         leftPerson(Shahid);
+    //         rightPerson(Josh);
+    //         break;
+    //     case 144:
+    //         hideEveryone();
+    //         leftPerson(Maria);
+    //         rightPerson(Shahid);
+    //         break;
+    //     case 145:
+    //         hideEveryone();
+    //         leftPerson(Annie);
+    //         rightPerson(Maria);
+    //         break;
+    //     case 147:
+    //         hideEveryone();
+    //         centerPerson(Shahid);
+    //         break;
+    //     case 149:
+    //         hideEveryone();
+    //         leftPerson(Shahid);
+    //         rightPerson(Maria);
+    //         break;
+    //     case 138+15:
+    //         playEffectSound("audio/effectsound/opendoor.mp3");
+    //         break;
+    //     case 139+15:
+    //         hideEveryone();
+    //         centerPerson(John);
+    //         break;
+    //     case 140+15:
+    //         hideEveryone();
+    //         leftPerson(John);
+    //         rightPerson(Maria);
+    //         break;
+    //     case 141+15:
+    //         hideEveryone();
+    //         leftPerson(Shahid);
+    //         rightPerson(Josh);
+    //         break;
+    //     case 147+15:
+    //         hideEveryone();
+    //         centerPerson(Shahid);
+    //         break;
+    //     case 148+15:
+    //         hideEveryone();
+    //         leftPerson(Shahid);
+    //         rightPerson(Maria);
+    //         break;
+    //     case 149+15:
+    //         hideEveryone();
+    //         var screen = document.getElementById('screen');
+    //         screen.style.backgroundImage = "url('images/background/classroomeveningbackground.jpg')";
+    //         playAmbienceSound("audio/ambiencesound/library.mp3");
+    //         break;
+    //     case 152+15:
+    //         hideEveryone();
+    //         centerPerson(Annie);
+    //         break;
+    //     case 153+15:
+    //         hideEveryone();
+    //         centerPerson(Maria);
+    //         break;
+    //     case 155+15:
+    //         hideEveryone();
+    //         leftPerson(Maria);
+    //         rightPerson(Shahid);
+    //         break;
+    //     case 156+15:
+    //         hideEveryone();
+    //         centerPerson(Maria);
+    //         break;
+    //     case 157+15:
+    //         hideEveryone();
+    //         playEffectSound("audio/effectsound/walkaway.mp3");
+    //         break;
+    //     case 158+15:
+    //         hideEveryone();
+    //         centPerson(Shahid);
+    //         break;
+    //     case 159+15:
+    //         hideEveryone();
+    //         leftPerson(Shahid);
+    //         rightPerson(Annie);
+    //         break;
+    //     case 161+15:
+    //         hideEveryone();
+    //         leftPerson(Shahid);
+    //         rightPerson(Josh);
+    //         break;
+    // }
+
+
+
+    // if(linesArray[currentScene - 1].startsWith("Shahid")){
+    //     message.style.backgroundColor = "aqua";
+    // }
+    // else if(linesArray[currentScene - 1].startsWith("Maria")){
+    //     message.style.backgroundColor = "pink";
+    // }
+    // else if(linesArray[currentScene - 1].startsWith("Annie")){
+    //     message.style.backgroundColor = "yellow";
+    // }
+    // else if(linesArray[currentScene - 1].startsWith("Josh")){
+    //     message.style.backgroundColor = "greenyellow";
+    // }
+    // else if(linesArray[currentScene - 1].startsWith("John")){
+    //     message.style.backgroundColor = "wheat";
+    // }
+    // else{
+    //     message.style.backgroundColor = "white";
+    // }
+
+
+// let ShahidImagePath = "images/char/Shahid.png";
+// document.getElementById("Shahid").src = ShahidImagePath;
+
+// let MariaImagePath = "images/char/Yuno.png";
+// document.getElementById("Maria").src = MariaImagePath;
+
+// let AnnieImagePath = "images/char/Saber.png";
+// document.getElementById("Annie").src = AnnieImagePath;
+
+// let JoshImagePath = "images/char/Might Guy.png";
+// document.getElementById("Josh").src = JoshImagePath;
+
+// let JohnImagePath = "images/char/Snape.png";
+// document.getElementById("John").src = JohnImagePath;
+
+// let TitleImagePath = "images/title3.png";
+// document.getElementById("Title").src = TitleImagePath;
+
+
+

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" type = "image/jpg" href="../images/lfz.jpg">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Building Bridges</title>
+        <link rel="stylesheet" href="bridge.css">
+    </head>
+    <header>
+        <h1>
+            <image src="images/bridge.webp" width="190px"></image><span style="background-color:tomato">Building Bridges</span>
+        </h1>
+        <nav class="navbar">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="newgame.html">New Game</a></li>
+                <li><a href="chapter.html">Chapter Selection</a></li>
+                <li><a href="settings.html">Settings</a></li>
+                <li><a href="help.html">Help</a></li>  
+                <li><a href="../first.html">first</a></li>
+            </ul>
+        </nav>
+    </header>
+    <body>
+        <audio id="effectSound" src="audio/effectsound/close door.mp3" preload="auto"></audio>
+        <div class="genderselectionclass" id="genderselectionid">
+            <h3>Select Gender</h3>
+            <button onclick="setGender('Male')"><image src="images/male.webp" height="300px"></image></button>
+            <button onclick="setGender('Female')"><image src="images/female.png"height="300px"></image></button>
+            <br>
+            <button onclick="submitgender()"><image src="images/next.png"height="150px"></image></button>
+            <p id="selectedgender"></p>
+        </div>
+        
+        <div class="characterselectionclass" id="characterselectionid">
+            <div class="hidden" id="malecharacterselectionid">
+                <h3>Select Character</h3>
+                <button onclick="setCharacter('Mr Bean')"><image src="images/char/Mr Bean3.png" height="300px""></image></button>
+                <button onclick="setCharacter('Squidward')"><image src="images/char/Squidward0.png"height="300px"></image></button>   
+                <button onclick="setCharacter('Kakashi')"><image src="images/char/Kakashi1.png"height="300px"></image></button>   
+                <button onclick="setCharacter('Might Guy')"><image src="images/char/Might Guy.webp"height="300px"></image></button>   
+                <button onclick="setCharacter('Kakashi')"><image src="images/char/gaara4.webp"height="300px"></image></button>   
+                <button onclick="setCharacter('Snape')"><image src="images/char/Snape4.png"height="300px"></image></button>   
+                <button onclick="setCharacter('Shahid')"><image src="images/char/Shahid.png"height="300px"></image></button>   
+                <br>
+                <button onclick="submitcharacter('traitselectionid')"><image src="images/next.png"height="150px"></image></button> 
+            </div>
+    
+            <div class="hidden" id="femalecharacterselectionid">
+                <h3>Select Character</h3>
+                <button onclick="setCharacter('Sakura')"><image src="images/char/Sakura.webp"height="300px"></image></button>
+                <button onclick="setCharacter('Sandy')"><image src="images/char/Sandy1.png" height="300px"></image></button>
+                <button onclick="setCharacter('Soyeon')"><image src="images/char/Soyeon9.png"height="300px"></image></button>        
+                <button onclick="setCharacter('Meg')"><image src="images/char/Meg1.png"height="300px"></image></button>  
+                <button onclick="setCharacter('Katara')"><image src="images/char/Katara1.webp"height="300px"></image></button>  
+                <br>
+                <button onclick="submitcharacter('traitselectionid')"><image src="images/next.png"height="150px"></image></button>
+            </div>
+            <p id="selectedcharacter"></p>
+        </div>
+
+        <div class="traitselectionclass" id="traitselectionid">
+            <h3>Select Traits</h3>
+            <button onclick="setTraits('Sociable')"><image src="images/ext.png" height="150px"></image></button>
+            <button onclick="setTraits('Fit')"><image src="images/fit.png"height="150px"></image></button>
+            <button onclick="setTraits('Studious')"><image src="images/study.png"height="150px"></image></button>
+            <button onclick="setTraits('Grumpy')"><image src="images/grumpy.webp"height="150px"></image></button> 
+            <button onclick="setTraits('Greed')"><image src="images/greed.png"height="150px"></image></button> 
+            <button onclick="setTraits('Proud')"><image src="images/pride.webp"height="150px"></image></button> 
+            <button onclick="setTraits('Religious')"><image src="images/religion.png"height="150px"></image></button> 
+            <button onclick="setTraits('Lustful')"><image src="images/lustful.png"height="150px"></image></button> 
+            <br>
+            <button onclick="submittraits('beginstoryid')"><image src="images/next.png"height="150px"></image></button>
+            <p id="selectedtrait"></p>  
+        </div>
+
+        <div class="beginstoryclass" id="beginstoryid">
+            <button onclick="beginGame()"><image src="images/start.png" width="440px" style="background-color: tomato; color: white;"></image></button>
+        </div>
+        
+        <script src="bridge.js"></script>
+    </body>
+</html>
